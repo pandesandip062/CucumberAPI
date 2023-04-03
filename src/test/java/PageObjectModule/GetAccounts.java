@@ -35,7 +35,8 @@ public class GetAccounts {
        String resonsebody1 = responsebody.asString();
        System.out.println("response is" + resonsebody1);
        JsonPath jsonpathview = responsebody.jsonPath();
-
+      String s= jsonpathview.getJsonObject("data.accounts[0].accountId");
+      Assert.assertEquals("0115755089",s);
    }
 
     public void ar(){

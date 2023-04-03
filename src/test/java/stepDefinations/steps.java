@@ -41,8 +41,9 @@ public postTokenASAAP postToken;
         logger.info("******************URl launched **************");
     }
     @Then("api should return the response value")
-    public void api_should_return_the_response_value() {
-       getaccount.response();
+    public void api_should_return_the_response_value()
+    {
+        getaccount.response();
     }
 
 
