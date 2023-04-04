@@ -139,12 +139,44 @@ public postTokenASAAP postToken;
       getbyname.geturl(url);
 
     }
-    @Then("user should get all dtails related with that last name")
-    public void user_should_get_all_dtails_related_with_that_last_name() {
+    @Then("user should get all details related with that last name")
+    public void user_should_get_all_details_related_with_that_last_name() {
     getbyname.getresponse();
 
     }
+    @Then("validate member first name & last name")
+    public void validate_member_first_name_last_name() {
+       getbyname.geFN_LN();
+    }
+    @Then("validate the member id")
+    public void validate_the_member_id() {
+        getbyname.getmemberid();
+    }
 
+    @Then("validate the member birth date")
+    public void validate_the_member_birth_date() {
+        getbyname.getbirthDate();
+    }
+    @Then("validate the member contact address")
+    public void validate_the_member_contact_address() {
+        getbyname.contactaddressPhone_Home();
+        getbyname.contactaddressPhone_Mobile();
+        getbyname.addresType_Mailing();
+    }
+    @Then("validate the member branch & close indicator value")
+    public void validate_the_member_branch_close_indicator_value() {
+        getbyname.brachNumber();
+        getbyname.closeIndicator();
+
+    }
+    @Then("validate the status code for valid headers")
+    public void validate_the_status_code_for_valid_headers() {
+        getbyname.statuscode_validheaders();
+    }
+    @Then("validate the status code for in-valid headers")
+    public void validate_the_status_code_for_in_valid_headers() {
+      getbyname.statuscode_invalidHeadesr();
+    }
 
 
 }
