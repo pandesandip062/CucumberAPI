@@ -25,3 +25,9 @@
 2023-03-31 18:23:25,889  INFO [main] CucumberAPI:81 - *****************Access Token Created  ***********************
 2023-03-31 18:24:10,953  INFO [main] CucumberAPI:81 - *****************Access Token Created  ***********************
 2023-04-03 19:06:07,406  INFO [main] CucumberAPI:81 - *****************Access Token Created  ***********************
+2023-04-04 12:32:57,083  INFO [main] CucumberAPI:84 - *****************Access Token Created  ***********************
+2023-04-04 12:33:13,564  INFO [main] CucumberAPI:84 - *****************Access Token Created  ***********************
+2023-04-04 12:33:13,565  INFO [main] CucumberAPI:90 - ******************URl launched **************
+2023-04-04 12:33:24,103  INFO [main] CucumberAPI:98 - ************** record updated ******************
+2023-04-04 12:33:24,145  INFO [main] CucumberAPI:104 - ************ status message verified **********************
+2023-04-04 12:33:24,147  INFO [main] CucumberAPI:110 - ******************* status code verified ********************

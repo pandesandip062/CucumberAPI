@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
         features = ".//Features/GetPartybyName.feature",
         glue="stepDefinations",
         dryRun = false,
-        plugin = {"pretty","json:text"}
+        plugin = {"pretty","html:.//test-outpu/cucmber.html"},
+        monochrome =true
 )
-public class test1 {
+public class GetpartybyNameTest {
 }
