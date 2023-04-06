@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = ".//Features/postTokenASSAP.feature",
+        features = ".//Features/LOSMenberEnquiry.feature",
         glue="stepDefinations",
         dryRun = false,
         plugin = {"pretty","json:test-output"}

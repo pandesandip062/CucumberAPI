@@ -23,6 +23,7 @@ public GetPartybyID getparty;
 public GetPartybyName getbyname;
 
 public postTokenASAAP postToken;
+public memberProfileEnquiry memberprofileEnq;
 @Before
  public void setup(){
 
@@ -178,6 +179,56 @@ public postTokenASAAP postToken;
       getbyname.statuscode_invalidHeadesr();
     }
 
+  //******************************LOS(MemberProfileEnquiry)*******************************************************
+
+
+    @When("user hits the url {string}")
+    public void user_hits_the_url(String url) {
+        memberprofileEnq = new memberProfileEnquiry(driver);
+        memberprofileEnq.getUrl(url);
+
+    }
+    @Then("user should get all details related with memberID")
+    public void user_should_get_all_details_related_with_member_id() {
+    memberprofileEnq.getResponse();
+
+    }
+    @Then("validate memberid")
+    public void validate_memberid() {
+    memberprofileEnq.getMemberId();
+    }
+    @Then("validate branchNumber")
+    public void validate_branch_number() {
+     memberprofileEnq.branchNumber();
+    }
+    @Then("validate members FirstName, MiddleName & LastName")
+    public void validate_members_first_name_middle_name_last_name() {
+    memberprofileEnq.FN_ML_LN();
+    }
+    @Then("validate mambers sex,status & DOB")
+    public void validate_mambers_sex_status_dob() {
+    memberprofileEnq.DOB();
+
+    }
+    @Then("validate members Contact Details")
+    public void validate_members_contact_details() {
+     memberprofileEnq.memberContactDetails();
+    }
+    @Then("validate members Address Details")
+    public void validate_members_address_details() {
+    memberprofileEnq.memberAddressDetails();
+
+    }
+    @Then("validate memebrs empoccuptaion")
+    public void validate_memebrs_empoccuptaion() {
+    memberprofileEnq.empOccuption();
+
+    }
+    @Then("validate for invalidHeaders")
+    public void validate_for_invalid_headers() {
+    memberprofileEnq.InvalidHeaders();
+
+    }
 
 }
 
