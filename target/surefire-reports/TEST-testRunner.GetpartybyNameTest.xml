@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="testRunner.GetpartybyNameTest" time="2.222" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\jre\bin"/>
+    <property name="java.vm.version" value="25.232-b09"/>
+    <property name="java.vm.vendor" value=""/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sandip_pande\IdeaProjects\CucumberAPI"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\sandip_pande\IdeaProjects\CucumberAPI"/>
+    <property name="java.runtime.version" value="1.8.0_232-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SANDIP~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\apache-maven-3.8.1-bin (1)\apache-maven-3.8.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\sandip_pande\AppData\Local\Microsoft\WindowsApps;D:\apache-maven-3.8.1-bin (1)\apache-maven-3.8.1\bin;;."/>
+    <property name="maven.conf" value="D:\apache-maven-3.8.1-bin (1)\apache-maven-3.8.1\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\apache-maven-3.8.1-bin (1)\apache-maven-3.8.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\sandip_pande"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="sandip_pande"/>
+    <property name="java.class.path" value="D:\apache-maven-3.8.1-bin (1)\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_232"/>
+    <property name="java.ext.dirs" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\jre\lib\resources.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\jre\lib\rt.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\jre\lib\sunrsasign.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\jre\lib\jsse.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\jre\lib\jce.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\jre\lib\charsets.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\jre\lib\jfr.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-hotspot\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="D:\apache-maven-3.8.1-bin (1)\apache-maven-3.8.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="getpartybyName" name="get member details by last name" time="2.222">
+    <failure message="expected:&lt;011442304&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;011442304&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at PageObjectModule.GetPartybyName.getmemberid(GetPartybyName.java:61)
+	at stepDefinations.steps.validate_the_member_id(steps.java:155)
+	at ✽.validate the member id(file:///C:/Users/sandip_pande/IdeaProjects/CucumberAPI/./Features/GetPartybyName.feature:7)
+</failure>
+    <system-out>
+Scenario: get member details by last name                                                 # Features/GetPartybyName.feature:2
+ewogICJ0eXAiOiAiSldUIiwKICAiYWxnIjogIkhTMjU2Igp9.ewogICJzdWIiOiAiMDAyMDExMjMiLAogICJuYW1lIjogIlNhbmRpcCBQYW5kZSIsCiAgImlhdCI6IDE2ODIyNjg3MzIsCiAgImV4cCI6IDE2ODIyNzIzMzIsCiAgImluc3RpdHV0aW9uIjogIjAwMiIKfQ.IvDMWgyx-l0sc7-llYgkUKnok5if6nvn-3KqGfG3mug
+  Given create a access token to access                                                   # stepDefinations.steps.create_a_access_token_to_access()
+  When user hit the user send the url3 &quot;https://np-api.leaguedata.ca/int1/asapp-eapi/v1/&quot; # stepDefinations.steps.user_hit_the_user_send_the_url3(java.lang.String)
+response is{
+  &quot;success&quot;: false,
+  &quot;apiName&quot;: &quot;ASAPP Experience API&quot;,
+  &quot;version&quot;: &quot;v1&quot;,
+  &quot;correlationId&quot;: &quot;3259c8b0-e1f7-11ed-9200-0651812af9b6&quot;,
+  &quot;timestamp&quot;: &quot;2023-04-23T16:52:14.091Z&quot;,
+  &quot;errorDetails&quot;: [
+    {
+      &quot;code&quot;: 500,
+      &quot;reason&quot;: &quot;UNKNOWN&quot;,
+      &quot;message&quot;: &quot;Internal Server Error&quot;
+    }
+  ]
+}
+  Then user should get all details related with that last name                            # stepDefinations.steps.user_should_get_all_details_related_with_that_last_name()
+  Then validate the member id                                                             # stepDefinations.steps.validate_the_member_id()
+      java.lang.AssertionError: expected:&lt;011442304&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at PageObjectModule.GetPartybyName.getmemberid(GetPartybyName.java:61)
+	at stepDefinations.steps.validate_the_member_id(steps.java:155)
+	at âœ½.validate the member id(file:///C:/Users/sandip_pande/IdeaProjects/CucumberAPI/./Features/GetPartybyName.feature:7)
+
+  Then validate member first name &amp; last name                                             # stepDefinations.steps.validate_member_first_name_last_name()
+  Then validate the member birth date                                                     # stepDefinations.steps.validate_the_member_birth_date()
+  Then validate the member contact address                                                # stepDefinations.steps.validate_the_member_contact_address()
+  Then validate the member branch &amp; close indicator value                                 # stepDefinations.steps.validate_the_member_branch_close_indicator_value()
+  Then validate the status code for valid headers                                         # stepDefinations.steps.validate_the_status_code_for_valid_headers()
+  Then validate the status code for in-valid headers                                      # stepDefinations.steps.validate_the_status_code_for_in_valid_headers()
+</system-out>
+    <system-err>&amp;#27;[32m&amp;#27;[1m?????????????????????????????????????????????????????????????????????????????????????&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m Share your Cucumber Report with your team at &amp;#27;[36m&amp;#27;[1m&amp;#27;[4mhttps://reports.cucumber.io&amp;#27;[0m          &amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m Activate publishing with one of the following:                                    &amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m                                                                                   &amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m src/test/resources/cucumber.properties:          &amp;#27;[36mcucumber.publish.enabled&amp;#27;[0m=&amp;#27;[36mtrue&amp;#27;[0m    &amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m src/test/resources/junit-platform.properties:    &amp;#27;[36mcucumber.publish.enabled&amp;#27;[0m=&amp;#27;[36mtrue&amp;#27;[0m    &amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m Environment variable:                            &amp;#27;[36mCUCUMBER_PUBLISH_ENABLED&amp;#27;[0m=&amp;#27;[36mtrue&amp;#27;[0m    &amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m JUnit:                                           &amp;#27;[36m@CucumberOptions&amp;#27;[0m(publish = &amp;#27;[36mtrue&amp;#27;[0m) &amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m                                                                                   &amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m More information at &amp;#27;[36mhttps://cucumber.io/docs/cucumber/environment-variables/&amp;#27;[0m      &amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m                                                                                   &amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m Disable this message with one of the following:                                   &amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m                                                                                   &amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m src/test/resources/cucumber.properties:          &amp;#27;[36mcucumber.publish.quiet&amp;#27;[0m=&amp;#27;[36mtrue&amp;#27;[0m      &amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m src/test/resources/junit-platform.properties:    &amp;#27;[36mcucumber.publish.quiet&amp;#27;[0m=&amp;#27;[36mtrue&amp;#27;[0m      &amp;#27;[32m&amp;#27;[1m?&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m?????????????????????????????????????????????????????????????????????????????????????&amp;#27;[0m
+</system-err>
+  </testcase>
+</testsuite>

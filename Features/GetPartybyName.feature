@@ -1,9 +1,8 @@
 Feature: getpartybyName
   Scenario: get member details by last name
 
-    Given create a access token to access
-    When user hit the user send the url3 "https://np-api.leaguedata.ca/int1/asapp-eapi/v1/"
-    Then user should get all details related with that last name
+    When user hit the user send the url for getpartybyName "https://np-api.leaguedata.ca:443/uat/asapp-eapi/v1"
+    Then user get all details related with that last name
     Then validate the member id
     Then validate member first name & last name
     Then validate the member birth date

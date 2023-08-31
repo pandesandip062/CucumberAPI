@@ -1,0 +1,69 @@
+{
+
+  "loanType": "1",
+  "lengthofCurrent_Term": 12,
+  "branchNumber":"01",
+  "purpose": [{
+    "code": "01",
+    "amount": 100
+  }],
+  "collateral": [{
+    "code": "01"
+  }],
+  "taxAmount": 200,
+  "loanTotalAdvanced": 2000,
+  "approvalOfficer": "01",
+  "adjustedPayment": 20,
+  "paymentFrequency": "M",
+  "finalPaymentDate": "04302024",
+  "transferType1": "3",
+  "transferAccount1": 1096316551,
+  "rate": 5.00,
+  "dateApproved": "05222023",
+  "userNumber": 11,
+  "firstPaymentDate": "06222023",
+  "numberOfPayments": 12,
+  "statementFrequency": "M",
+  "miscellaniousClassification": "01",
+  "renewalDate": "05182024",
+  "transitNumber": 1234567890,
+  "financedByAccount": "98765",
+  "lengthofCurrentTerm": "12",
+  "accountNickname": "LOC",
+  "capitalizeInterestIndicator": "1",
+  "paymentOptionIndicator": "1",
+  "paymentPercentage": "",
+  "LOCChequingNumber": 10,
+  "insurance": {
+    "companyName": "abc",
+    "agent": "a",
+    "contact": "123",
+    "CUIS": "Y",
+    "CUISCertificateNumber": "12444",
+    "disability": "Y",
+    "creditUnion_Life": "N",
+    "memberLife": "N"
+  },
+  "policyNumber": 22222,
+  "phoneNumber": 7654567810,
+  "expiryDate": "05242024",
+  "interestRateType": 2,
+  "coBorrower": {
+
+  },
+  "assets" : [
+    {
+      "name" : "test Asset",
+      "amount" : 20000,
+      "id" : "1",
+      "propertyAddress" : {
+        "street" : "abc",
+        "city" : "jhgb",
+        "province" : "01",
+        "postalCode" : "90875"
+      }
+    }
+  ],
+  "semiMonthlyDay1" : "14",
+  "semiMonthlyDay2" : "29"
+}

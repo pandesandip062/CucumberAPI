@@ -1,2 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/sandip_pande/IdeaProjects/CucumberAPI"><classes/></test></suite>
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HelloTestNgSuite">
+    <test name="HelloWorldTest" preserve-order="true" thread-count="10" parallel="methods">
+        <classes>
+            <class name="testRunner.getPartybyId"/>
+            <class name="testRunner.putPartyTest"/>
+            <class name="testRunner.GetPartyByName"/>
+        </classes>
+    </test>
+</suite>

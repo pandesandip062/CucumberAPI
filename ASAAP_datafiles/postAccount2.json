@@ -1,0 +1,45 @@
+{
+  "accountMessage": {
+    "accountList": {
+      "account": [
+        {
+          "accountId": "011255191",
+          "customData": {
+            "valuePair": [
+              {
+                "name": "serviceNum",
+                "value": "0035"
+              },
+              {
+                "name": "intendedUseNumber",
+                "value": "005"
+              },
+              {
+                "name": "thirdPartyIndicator",
+                "value": "False"
+              },
+              {
+                "name": "individualBusinessIndicator",
+                "value": "False"
+              },
+              {
+                "name": "termPrincipal",
+                "value": "40000"
+              }
+            ]
+          },
+          "openDate": "2022-03-07",
+          "externalAccountFlag": false,
+          "externalAccountVerified": false,
+          "externalTransferFrom": false,
+          "externalTransferTo": false,
+          "transferFrom": false,
+          "transferTo": false
+        }
+      ]
+    },
+    "messageContext": {
+      "cufxVersion": "4.2.0"
+    }
+  }
+}
