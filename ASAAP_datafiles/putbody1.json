@@ -1,0 +1,155 @@
+{
+  "partyMessage": {
+    "partyList": {
+      "party": [
+        {
+          "id": "011338529",
+          "taxInformationList": {
+            "taxInformation": [
+              {
+                "taxId": "71902902",
+                "taxIdType": "Other",
+                "otherTaxIdType": "SIN"
+              }
+            ]
+          },
+          "type": "Organization",
+          "characteristics": {
+            "individual": {
+              "firstName": "Sandy",
+              "middleName":"Balaji",
+              "lastName": "Pande",
+              "prefix": "4",
+              "birthdate": "2023-03-31",
+              "gender": "Male",
+              "employmentList": {
+                "employment": [
+                  {
+                    "employeeOccupation": "D013",
+                    "customData": {
+                      "valuePair": [
+                        {
+                          "name": "employmentStatus",
+                          "value": "2"
+                        },
+                        {
+                          "name": "employmentType",
+                          "value": "0"
+                        },
+                        {
+                          "name": "occupationDesc",
+                          "value": "sandip"
+                        },
+                        {
+                          "name": "employmentIndustry",
+                          "value": "D1"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "contactList": {
+            "contact": [
+              {
+                "contactType": "Address",
+                "contactPoint": {
+                  "address": {
+                    "line1": "Pune",
+                    "line2": "Hinjewadi",
+                    "city": "Pune",
+                    "stateProvince": "MH",
+                    "postalCode": "411057",
+                    "countryCode": "IN",
+                    "addressType": "Mailing"
+                  }
+                }
+              },
+              {
+                "contactType": "Phone",
+                "contactPoint": {
+                  "phone": {
+                    "phoneType": "Mobile",
+                    "number": "097854321"
+                  }
+                }
+              },
+              {
+                "contactType": "Email",
+                "contactPoint": {
+                  "email": {
+                    "emailType": "Home",
+                    "address": "xyz@gmail.com"
+                  }
+                }
+              }
+            ]
+          },
+          "partyDateTimeCreated": "2023-03-23",
+          "customData": {
+            "valuePair": [
+              {
+                "name": "residencyForTaxPurposes",
+                "value": "AR"
+              },
+              {
+                "name": "branchNumber",
+                "value": "02"
+              },
+              {
+                "name": "maritalStatus",
+                "value": "C"
+              },
+              {
+                "name": "incomeRange",
+                "value": "O"
+              },
+              {
+                "name": "usCitizenInd",
+                "value": "true"
+              },
+              {
+                "name": "pefpIndicator",
+                "value": "2"
+              },
+              {
+                "name": "hioIndicator",
+                "value": "N"
+              },
+              {
+                "name": "inactiveCustomer",
+                "value": "N"
+              },
+              {
+                "name": "sendCorrespondencetoindicator",
+                "value": "2"
+              },
+              {
+                "name": "noSolicitationindicator",
+                "value": "True"
+              },
+              {
+                "name": "privateAccountindicator",
+                "value": "False"
+              },
+              {
+                "name": "privateDate",
+                "value": "03/14/2023"
+              },
+              {
+                "name": "cem",
+                "value": "M"
+              }
+
+            ]
+          }
+        }
+      ]
+    },
+    "messageContext": {
+      "cufxVersion": "4.2.0"
+    }
+  }
+}

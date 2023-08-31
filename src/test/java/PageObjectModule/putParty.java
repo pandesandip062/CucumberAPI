@@ -14,9 +14,14 @@ import java.io.File;
 public class putParty {
     public WebDriver driver;
     public RequestSpecification httprequest1;
+    public RequestSpecification httprequest;
    public  Response response1;
    public ResponseBody responsebody1;
+    public  Response response;
+    public ResponseBody responsebody;
+    public JsonPath jasonpath;
    public String ac1;
+   public String url1;
     protected String accessToke;
 
 
@@ -25,26 +30,50 @@ public class putParty {
         PageFactory.initElements(driver,this);
     }
 
-    public void gettoken(){
-        RestAssured.baseURI = "https://np-api.leaguedata.ca:443/int1/asapp-eapi/v1";
-        RequestSpecification httprequest = RestAssured.given().header("Username", "asapp-user").header("Password", "secret@123").header("client_secret", "33C394254542453b839eCe485C4f055b").header("cuId", "2").header("Authorization", "Basic YXNhcHAtdXNlcjpzZWNyZXRAMTIz").header("Content-Type", "application/x-www-form-urlencoded").formParam("username", "00201123");
-        Response response = httprequest.post("/oauth/token");
-        ResponseBody responsebody = response.getBody();
-        JsonPath jsonpathview = responsebody.jsonPath();
-        String accesstoken = jsonpathview.get("access_token");
-        ac1 = "Bearer "+accesstoken;
-    }
-
     public void getURl(String url){
         RestAssured.baseURI=url;
+        url1=url;
 
     }
+
+
     public void updateData(){
-        httprequest1 = RestAssured.given().header("Content-Type", "application/json").header("Authorization",ac1);
-        response1 = httprequest1.body(new File(".//ASAAP_datafiles/putbody.json")).put("/v1/PartyMessage");
-        responsebody1 = response1.getBody();
-        String resopnse2 = responsebody1.asString();
-        System.out.println(resopnse2);
+        String env="int1";
+
+        if(env.equals("int1")){
+
+            RestAssured.baseURI = url1;
+
+            httprequest = RestAssured.given().header("Username", "asapp-user").header("Password", "secret@123").header("Authorization", "Basic YXNhcHAtdXNlcjpzZWNyZXRAMTIz").header("Content-Type", "application/x-www-form-urlencoded").formParam("username", "00201051");
+            response = httprequest.post("/oauth/token");
+            responsebody = response.getBody();
+            jasonpath = responsebody.jsonPath();
+            String accesstoken = jasonpath.get("access_token");
+            ac1 = "Bearer "+accesstoken;
+            System.out.println(accesstoken);
+            httprequest1 = RestAssured.given().header("Content-Type", "application/json").header("Authorization",ac1);
+            response1 = httprequest1.body(new File(".//ASAAP_datafiles/putbody.json")).put("/PartyMessage");
+            responsebody1 = response1.getBody();
+            String resopnse2 = responsebody1.asString();
+            System.out.println(resopnse2);
+
+        } else if (env.equals("uat")) {
+            RestAssured.baseURI = url1;
+            httprequest = RestAssured.given().header("Username", "asapp-user").header("Password", "secret@123").header("Authorization", "Basic YXNhcHAtdXNlcjpzZWNyZXRAMTIz").header("Content-Type", "application/x-www-form-urlencoded").formParam("username", "76603006");
+            response = httprequest.post("/oauth/token");
+            responsebody = response.getBody();
+            JsonPath jsonpathview = responsebody.jsonPath();
+            String accesstoken = jsonpathview.get("access_token");
+            ac1 = "Bearer "+accesstoken;
+
+            httprequest1 = RestAssured.given().header("Content-Type", "application/json").header("Authorization",ac1);
+            response1 = httprequest1.body(new File(".//ASAAP_datafiles/putbody1.json")).put("/PartyMessage");
+            responsebody1 = response1.getBody();
+            String resopnse2 = responsebody1.asString();
+            System.out.println(resopnse2);
+        }
+
+
 
 
     }
